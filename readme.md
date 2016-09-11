@@ -4,6 +4,10 @@
 
 Presets allows to setup JSS quickly with default settings and plugins.
 
+Make sure you read [how to use
+plugins](https://github.com/cssinjs/jss/blob/master/docs/setup.md#setup-with-plugins)
+in general.
+
 [JSS](https://github.com/cssinjs/jss)
 
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/cssinjs/jss)
