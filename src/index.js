@@ -11,11 +11,11 @@ export default (options = {}) => ({
   plugins: [
     extend(options.extend),
     nested(options.nested),
+    compose(options.compose),
     camelCase(options.camelCase),
     defaultUnit(options.defaultUnit),
     expand(options.expand),
     vendorPrefixer(options.vendorPrefixer),
-    propsSort(options.propsSort),
-    compose(options.compose)
+    propsSort(options.propsSort)
   ]
 })
