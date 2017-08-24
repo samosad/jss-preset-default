@@ -1,15 +1,17 @@
+import template from 'jss-template'
+import global from 'jss-global'
 import extend from 'jss-extend'
 import nested from 'jss-nested'
+import compose from 'jss-compose'
 import camelCase from 'jss-camel-case'
 import defaultUnit from 'jss-default-unit'
+import expand from 'jss-expand'
 import vendorPrefixer from 'jss-vendor-prefixer'
 import propsSort from 'jss-props-sort'
-import compose from 'jss-compose'
-import expand from 'jss-expand'
-import global from 'jss-global'
 
 export default (options = {}) => ({
   plugins: [
+    template(options.template),
     global(options.global),
     extend(options.extend),
     nested(options.nested),
