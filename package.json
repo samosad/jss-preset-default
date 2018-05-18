@@ -57,6 +57,6 @@
     "jss-nested": "^6.0.1",
     "jss-props-sort": "^6.0.0",
     "jss-template": "^1.0.1",
-    "jss-vendor-prefixer": "^7.0.0"
+    "jss-vendor-prefixer": "^8.0.0"
   }
 }
